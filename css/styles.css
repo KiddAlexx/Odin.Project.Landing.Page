@@ -32,20 +32,19 @@ color: #F9FAF8;
 .lefthead {
   
 }
-
-.sea01{
-    width: 400px;
-}
-
-.signup{
-    width:70px;
-}
 .section01 {
     color: #F9FAF8;  
     background-color:#1F2937 ;
     display: flex;
     justify-content: space-between;
     gap:30px;
+}
+.sea01{
+    width: 400px;
+}
+
+.signup{
+    width:70px;
 }
 .left01{
     display: flex;
@@ -60,4 +59,8 @@ color: #F9FAF8;
     max-width: 400px;
     font-size: 18px;
     color:#E5E7EB;
+}
+
+.sea{
+    width: 200px;
 }
