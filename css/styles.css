@@ -1,0 +1,36 @@
+/* { outline: 1px dotted red }*/
+
+body{
+font-family: 'roboto' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color:#1F2937 ;
+color: white;
+
+}
+
+.righthead{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    align-items: center;
+    padding-right: 50px;
+    
+}
+
+.lefthead {
+  
+}
