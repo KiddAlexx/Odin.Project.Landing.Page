@@ -61,6 +61,19 @@ color: #F9FAF8;
     color:#E5E7EB;
 }
 
+.content02 {
+    display:flex;
+    justify-content: center;
+    gap:52px;
+    text-align: center;
+}
+.title02{
+    text-align: center;
+}
+.text02{
+    max-width: 150px;
+}
 .sea{
-    width: 200px;
+    width: 150px;
+    height:150px;
 }
