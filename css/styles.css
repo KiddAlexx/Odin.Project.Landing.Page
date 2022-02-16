@@ -16,12 +16,14 @@ a{
     color: white;
 }
 .header{
+height:70px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 background-color:#1F2937 ;
 color: #F9FAF8;
 align-items:center;
+margin-right: auto;
 
 
 }
@@ -48,7 +50,8 @@ align-items:center;
     
 }
 .sea01{
-    width: 400px;
+    width: 550px;
+    height:250px;
 }
 
 .signup{
@@ -67,11 +70,13 @@ align-items:center;
     display: flex;
     flex-direction:column;
     justify-content:center;
+    gap:10px;
     
 }
 .title{
     font-size: 48px;
     font-weight: bolder;
+    max-width: 400px;
 }
 .text01{
     max-width: 400px;
