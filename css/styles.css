@@ -2,6 +2,9 @@
 
 body{
 font-family: 'roboto' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+max-width: 1450px;
+margin: auto;
+
 }
 
 li{
@@ -18,6 +21,8 @@ flex-direction: row;
 justify-content: space-between;
 background-color:#1F2937 ;
 color: #F9FAF8;
+align-items:center;
+
 
 }
 
@@ -25,7 +30,7 @@ color: #F9FAF8;
     display:flex;
     flex-direction:row;
     gap:20px;
-    padding-right: 50px;
+
     
 }
 
@@ -36,8 +41,9 @@ color: #F9FAF8;
     color: #F9FAF8;  
     background-color:#1F2937 ;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap:30px;
+    
 }
 .sea01{
     width: 400px;
@@ -50,6 +56,7 @@ color: #F9FAF8;
     display: flex;
     flex-direction:column;
     justify-content:center;
+    
 }
 .title{
     font-size: 48px;
@@ -69,6 +76,9 @@ color: #F9FAF8;
 }
 .title02{
     text-align: center;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight:bolder;
 }
 .text02{
     max-width: 150px;
@@ -76,4 +86,37 @@ color: #F9FAF8;
 .sea{
     width: 150px;
     height:150px;
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: #8db6f8;
+    border-style: solid;
+}
+.section03{
+    background-color:#e5e7eb ;
+    
+    display:flex;
+    justify-content: center;
+    
+
+}
+.main03{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    width: 700px;
+    
+}
+
+.quote{
+ font-size: 36px;
+ font-style: italic;
+ 
+}
+.author{
+font-size: 20px;
+font-weight: bold;
+align-self: flex-end;
+
 }
