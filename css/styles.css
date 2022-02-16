@@ -1,7 +1,7 @@
 /* { outline: 1px dotted red }*/
 
 body{
-font-family: 'roboto' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: roboto,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 max-width: 1450px;
 margin: auto;
 
@@ -50,7 +50,17 @@ align-items:center;
 }
 
 .signup{
-    width:70px;
+    background-color:#3882F6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width:130px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    
+    cursor: crosshair;
 }
 .left01{
     display: flex;
@@ -104,14 +114,17 @@ align-items:center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
     height:400px;
     width: 700px;
+    
     
 }
 
 .quote{
  font-size: 36px;
  font-style: italic;
+ 
  
 }
 .author{
@@ -152,9 +165,19 @@ align-self: flex-end;
 .title04{
  color:#F9FAF8;
  font-size: 24px;
- font-weight: 900;
+ font-weight: 600;
 }
 .content04{
     color: #E5E7EB;
+    font-size: 18px;
+}
+.footer{
+    height:100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
     font-size: 18px;
 }
