@@ -120,3 +120,41 @@ font-weight: bold;
 align-self: flex-end;
 
 }
+
+.section04{
+    
+    height:330px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main04{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:180px;
+    background-color: #3882F6;
+    width:1000px;
+    height:150px;
+    border-radius: 10px;
+}
+.left04{
+    display:flex;
+    flex-direction: column;
+    
+}
+.signup04{
+    
+    width:70px;
+    
+}
+.title04{
+ color:#F9FAF8;
+ font-size: 24px;
+ font-weight: 900;
+}
+.content04{
+    color: #E5E7EB;
+    font-size: 18px;
+}
