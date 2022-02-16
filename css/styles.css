@@ -2,7 +2,7 @@
 
 body{
 font-family: roboto,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-max-width: 1450px;
+max-width: 1435px;
 margin: auto;
 
 }
@@ -40,8 +40,10 @@ align-items:center;
 .section01 {
     color: #F9FAF8;  
     background-color:#1F2937 ;
+    height:480px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap:30px;
     
 }
@@ -59,7 +61,6 @@ align-items:center;
     font-size: 16px;
     font-weight: 700;
     border-radius: 10px;
-    
     cursor: crosshair;
 }
 .left01{
@@ -77,25 +78,39 @@ align-items:center;
     font-size: 18px;
     color:#E5E7EB;
 }
-
+.section02{
+    height:480px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:50px;
+    
+}
 .content02 {
     display:flex;
     justify-content: center;
-    gap:52px;
-    text-align: center;
+    align-items: center;
+    gap:35px;
+    
+    
 }
 .title02{
-    text-align: center;
     font-size: 36px;
     color:#1f2937;
     font-weight:bolder;
-}
+    }
 .text02{
-    max-width: 150px;
+    text-align: center;
+}
+
+.info02{
+    text-align: center;
+    max-width:200px;
 }
 .sea{
-    width: 150px;
-    height:150px;
+    width: 170px;
+    height:170px;
     border-radius: 25px;
     border-width: 5px;
     border-color: #8db6f8;
@@ -159,7 +174,18 @@ align-self: flex-end;
 }
 .signup04{
     
-    width:70px;
+    background-color:#3882F6;
+    color: white;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    width:130px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: crosshair;
     
 }
 .title04{
