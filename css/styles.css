@@ -34,7 +34,8 @@ body{
     
     .lefthead {
       font-size: 24px;
-      font-weight: 600;     
+      font-weight: 600;
+           
     }
 
     .section01 {
@@ -84,19 +85,22 @@ body{
         color:#E5E7EB;
     }
     .section02{
-        height:480px;
+        min-height:480px;
         display: flex;
         justify-content: center;
         align-items:center;
         flex-direction: column;
         gap:50px;
         
+        
     }
     .content02 {
         display:flex;
         justify-content: center;
         align-items: center;
-        gap:35px;        
+        gap:35px;  
+        flex-wrap: wrap; 
+        padding-bottom: 20px;     
     }
 
     .title02{
